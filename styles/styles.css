@@ -1,0 +1,136 @@
+body{
+    background-color: #82CDFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.winner-title{
+    background-color: #0099FF;
+    height: 74px;
+    font-size: 33px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 66px;
+    border-radius: 12px 12px 0 0;
+    max-width: 430px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.scoreboard-box{
+    height: 148px;
+    background-color: #0099FF;
+    border-radius: 17px;
+    padding: 0 33px;
+}
+
+.player-name{
+    font-size: 38px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.scoreboard{
+    color: #0099FF;
+    background-color: #DBF1FF;
+    font-size: 104px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    font-weight: 900;
+}
+
+.scoreboard-box{
+    display: flex;
+    align-items: center;
+}
+
+.vs-separation{
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: 900;
+}
+
+.vs-separation--big{
+    font-size: 104px;
+    margin: 0 88px;
+}
+
+.player-name-1{
+    margin-right: 19px;
+}
+
+.player-name-2{
+    margin-left: 19px;
+}
+
+.scoreboard-1{
+    margin-right: 51px;
+}
+
+.scoreboard-2{
+    margin-left: 51px;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.button-move{
+    height: 80px;
+    width: 220px;
+    background-color: #0099FF;
+    color: #FFFFFF;
+    font-size: 44px;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 300ms;
+}
+
+.button-move:hover{
+    border: 1px solid #0099FF;
+    background-color: transparent;
+    color: #0099FF;
+    box-shadow: 5px 5px 10px #0000004D;
+}
+
+.battlefield-container{
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.battlefield{
+    display: flex;
+    align-items: center;
+    background-color: #0099FF;
+    padding: 30px;
+    border-radius: 17px;
+    margin: 0 19px;
+}
+
+.field{
+    width: 464px;
+    height: 345px;
+    background-color: #DBF1FF;
+    border-radius: 17px;
+}
+
+.button-start{
+    margin-right: 101px;
+}
