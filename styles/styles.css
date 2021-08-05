@@ -1,4 +1,4 @@
-body{
+.body{
     background-color: #82CDFF;
     display: flex;
     align-items: center;
@@ -129,8 +129,19 @@ body{
     height: 345px;
     background-color: #DBF1FF;
     border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field-2 .image-move{
+    transform: scaleX(-1) scaleY(-1);
 }
 
 .button-start{
     margin-right: 101px;
+}
+
+.image-move{
+    width: 80%;
 }
