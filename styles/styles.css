@@ -145,3 +145,10 @@
 .image-move{
     width: 80%;
 }
+
+.button-active{
+    border: 1px solid #cc0000;
+    background-color: #cc0000;
+    color: #FFFFFF;
+    box-shadow: 5px 5px 10px #0000004D;
+}
