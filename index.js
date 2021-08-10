@@ -1,5 +1,5 @@
 const $buttonStone1 = document.querySelector('.button-stone-1')
-console.log('Chamou')
+// console.log('Chamou')
 const $buttonPaper1 = document.querySelector('.button-paper-1')
 const $buttonScissors1 = document.querySelector('.button-scissors-1')
 
