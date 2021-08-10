@@ -1,4 +1,5 @@
 const $buttonStone1 = document.querySelector('.button-stone-1')
+console.log('Chamou')
 const $buttonPaper1 = document.querySelector('.button-paper-1')
 const $buttonScissors1 = document.querySelector('.button-scissors-1')
 
@@ -55,9 +56,9 @@ function printWinnerName (winner){
 
 function givePoint(winner){
     if (winner == 1) {
-        scorePlayer1 = scorePlayer + 1
+        scorePlayer1 += 1
     } else if (winner == 2) {
-        scorePlayer2 = scorePlayer2 + 2
+        scorePlayer2 += 1
     }
 }
 
@@ -192,7 +193,7 @@ $buttonReset.addEventListener('click', resetAll)
 
 $buttonStart.addEventListener('click', function(){
     if (gameStart == false){
-        gameStart == true
+        gameStart = true
         $buttonStart.classList.add('button-active')
         $buttonStart.innerHTML = 'Parar'
     } else {
